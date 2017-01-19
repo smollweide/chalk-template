@@ -1,0 +1,34 @@
+{
+  "name": "chalk-template",
+  "version": "0.1.0",
+  "description": "",
+  "email": "simon.mollweide@web.de",
+  "author": "Simon Mollweide <simon.mollweide@web.de>",
+  "url": "https://github.com/smollweide/chalk-template",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/smollweide/chalk-template"
+  },
+  "main": "chalk-template.js",
+  "bugs": {
+    "url": "https://github.com/smollweide/chalk-template/issues"
+  },
+  "preferGlobal": true,
+  "private": false,
+  "license": "MIT",
+  "homepage": "http://smollweide.github.io/chalk-template/",
+  "scripts": {
+    "lint": "npm run lint:js",
+    "lint:js": "node_modules/.bin/eslint **/*.js"
+  },
+  "keywords": [],
+  "peerDependencies": {},
+  "devDependencies": {},
+  "dependencies": {
+    "@namics/eslint-config": "2.1.0",
+    "chalk": "1.1.3",
+    "eslint": "3.13.1",
+    "eslint-plugin-import": "2.2.0",
+    "for-in": "0.1.6"
+  }
+}
