@@ -2,7 +2,7 @@
 
 > Simple and easy to use template engine for chalk
 
-<img src="screenshot.png" width="631">
+<img src="https://cloud.githubusercontent.com/assets/2912007/22125570/7e92454e-de94-11e6-9398-d5136f498cb1.png" width="631">
 
 ## Install
 
@@ -14,7 +14,9 @@ $ npm install --save chalk-template
 ## Usage
 
 ```
+const chalkTemplate = require('chalk-template');
 
+console.log(chalkTemplate('<bold><red>Title</red></bold>'));
 ```
 
 See [supported styles](https://github.com/chalk/chalk#styles).

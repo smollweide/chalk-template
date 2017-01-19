@@ -13,17 +13,47 @@
   "bugs": {
     "url": "https://github.com/smollweide/chalk-template/issues"
   },
-  "preferGlobal": true,
+  "preferGlobal": false,
   "private": false,
   "license": "MIT",
   "homepage": "http://smollweide.github.io/chalk-template/",
   "scripts": {
+    "test": "node_modules/.bin/mocha test.js",
     "lint": "npm run lint:js",
     "lint:js": "node_modules/.bin/eslint **/*.js"
   },
-  "keywords": [],
-  "peerDependencies": {},
-  "devDependencies": {},
+  "engines": {
+    "node": ">= 4"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    "color",
+    "colour",
+    "colors",
+    "terminal",
+    "console",
+    "string",
+    "str",
+    "ansi",
+    "style",
+    "styles",
+    "tty",
+    "formatting",
+    "rgb",
+    "256",
+    "shell",
+    "xterm",
+    "log",
+    "logging",
+    "command-line",
+    "text",
+    "template",
+    "tpl"
+  ],
+  "devDependencies": {
+    "mocha": "3.2.0"
+  },
   "dependencies": {
     "@namics/eslint-config": "2.1.0",
     "chalk": "1.1.3",
