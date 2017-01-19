@@ -6,17 +6,24 @@
 
 ## Install
 
-```
+```console
 $ npm install --save chalk-template
 ```
 
 
 ## Usage
 
-```
+```js
+const chalk = require('chalk');
 const chalkTemplate = require('chalk-template');
 
-console.log(chalkTemplate('<bold><red>Title</red></bold>'));
+console.log(
+  chalkTemplate('<bold><red>Title</red></bold><error/>',
+    {
+      error: chalk.bold.red('Error!')
+    }
+  )
+);
 ```
 
 See [supported styles](https://github.com/chalk/chalk#styles).
